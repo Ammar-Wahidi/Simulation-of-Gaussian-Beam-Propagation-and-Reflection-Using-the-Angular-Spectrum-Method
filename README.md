@@ -87,10 +87,11 @@ cd Simulation-of-Gaussian-Beam-Propagation-and-Reflection-Using-the-Angular-Spec
 
 ```
 📁 Simulation-of-Gaussian-Beam-Propagation-and-Reflection-Using-the-Angular-Spectrum-Method/
-├── 📄 README.md                    # This file
-├── 📄 EMW_Report.pdf               # Complete technical report
-├── 📄 GaussianBeamSimulation.m     # Main MATLAB simulation script
-└── 📁 results/                     # Generated figures and outputs
+├── 📄 README.md                        # This file
+├── 📄 EMW_Report.pdf                   # Complete technical report
+├── 📄 GaussianBeamSimulation.m         # Main MATLAB simulation script
+├── 📄 Gaussian_Beams_Live_Script.mlx   # MATLAB Live script Simulation
+└── 📁 results/                         # Generated figures and outputs
     ├── Fig1_BeamWaist.png
     ├── Fig2_Mirror_3z0.png
     ├── Fig3_Mirror_4z0.png
@@ -129,12 +130,16 @@ Shows Gaussian beam intensity at three distances:
 - **z = 0**: Beam waist position (minimum width, maximum intensity)
 - **z = 0.5z₀**: Half Rayleigh range (moderate expansion)
 - **z = z₀**: Full Rayleigh range (√2 times beam waist)
+![Fig1,2](results/Fig1_BeamWaist.png)
 
 ### Figures 2-4: Parabolic Mirror Reflection
 Each figure analyzes post-reflection propagation at three distances (z₀, 4z₀, 6z₀):
 - **Figure 2**: Mirror at z = 3z₀ (diverging behavior)
 - **Figure 3**: Mirror at z = 4z₀ (collimating behavior)
 - **Figure 4**: Mirror at z = 5z₀ (focusing behavior)
+![Fig3](results/Fig2_Mirror_3z0.png)
+![Fig4](results/Fig3_Mirror_4z0.png)
+![Fig5](results/Fig4_Mirror_5z0.png)
 
 **Each figure contains:**
 - 2D intensity distribution color maps 
